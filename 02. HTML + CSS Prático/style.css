@@ -1,0 +1,121 @@
+.column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.initialboxblue {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(108, 189, 255);
+}
+
+.initialboxblue2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(108, 189, 255);
+}
+
+.initialboxblue3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(108, 189, 255);
+}
+
+.initialboxyellow {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(248, 255, 150);
+}
+
+.middleyellow {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 150px;
+    height: 300px;
+    background-color: rgb(248, 255, 150);
+}
+
+.middleblue {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 150px;
+    height: 300px;
+    background-color: rgb(108, 189, 255);
+}
+
+.insideboxblue1 {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(108, 189, 255);
+    width: 100px;
+    height: 100px;
+}
+
+.insideboxyellowcenter {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 255, 150);
+    width: 100px;
+    height: 100px;
+}
+
+.insideboxyellow1 {
+    display: flex;
+    background-color: rgb(248, 255, 150);
+    width: 100px;
+    height: 100px;
+}
+
+.whitebox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.middlewhite {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+}
+
+.topyellow {
+    display: flex;
+    align-items: start;
+    background-color: rgb(248, 255, 150);
+    width: 100px;
+    height: 100px;
+}
+
+.lowblue {
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(108, 189, 255);
+    width: 100px;
+    height: 100px;
+}
