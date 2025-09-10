@@ -15,7 +15,7 @@ e o git push realmente manda o commit para o repositório, como o nome quase aut
 
 4 – O que são conventional commits e conventional branches? Para qual finalidade
 eles seriam utilizados e resolveriam qual tipo de problema?
-R: 
+R: São commits e branchs convencionais, para uso mais simples, comum em projetos pessoais ou com um integrante apenas, para facilitar o versionamento.
 
 5 - Você clonou um repositório remoto, irá criar uma branch chamada
 feature/login para fazer alguns commits. Escreva os comandos e passo a passo
@@ -27,4 +27,4 @@ a)
 R: git branch feature/login, git checkout feature/login, git add ., git commit -m "branch criada", git push
 
 b)
-R: clica la no pull request do repo kk
+R: git checkout main, git merge feature/login
