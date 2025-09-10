@@ -27,4 +27,4 @@ a)
 R: git branch feature/login, git checkout feature/login, git add ., git commit -m "branch criada", git push
 
 b)
-R:
+R: clica la no pull request do repo kk

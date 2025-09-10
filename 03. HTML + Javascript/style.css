@@ -1,0 +1,25 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 200px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid gainsboro;
+}
+
+.buttonsend {
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+
+* {
+    font-weight: normal;
+    font-family: Helvetica;
+}
